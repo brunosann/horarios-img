@@ -1,1 +1,1 @@
-- Modificando as imagne conforme periodo do dia
+- Modificando as imagem conforme periodo do dia

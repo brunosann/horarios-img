@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    height: 100vh;
+    width: 100%;
+}
+.dia {
+    background-image: url('../img/bg-dia.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tarde {
+    background-image: url('../img/bg-tarde.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.noite {
+    background-image: url('../img/bg-noite.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffffbb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+#foto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.bomdia {
+    background-image: url('../img/bomdia.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.boatarde {
+    background-image: url('../img/boatarde.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.boanoite {
+    background-image: url('../img/boanoite.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.conteudo button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.conteudo button:hover {
+    cursor: pointer;
+    background-color: #363636;
+    color: #fff;
+}
